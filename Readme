@@ -1,0 +1,39 @@
+📊 Outstanding Balance Dashboard
+
+A Tableau dashboard analyzing client outstanding balances against interest rates and reporting dates, developed as part of an Internshala Trainings data visualization assignment.
+
+Overview
+
+This project explores a client balance dataset to uncover patterns between interest rates and outstanding balances, and to surface the highest-exposure clients over time. The dashboard was built in Tableau Public and is designed to be interactive, allowing viewers to filter results by reporting date.
+
+Objectives
+
+The dashboard was built to answer three core analytical questions:
+
+#	Question
+1	What is the distribution of outstanding balances across different interest rates?
+2	Is there a correlation between interest rates and outstanding balances?
+3	Who are the top 5 clients by outstanding balance, and how does this ranking shift when filtered by reporting date?
+Dataset
+
+File: Tableau_Dataset.xlsx
+
+Field	Description
+Product Description	Name/type of the financial product
+Client Name	Client identifier
+Balance Outstanding	Outstanding balance amount
+Interest Rate	Applicable interest rate
+Reporting Date	Date of the balance record
+Client Code	Unique client code
+Dashboard Components
+Sheet	Chart Type	Purpose
+Balance Distribution	Bar chart	Shows how outstanding balances are distributed across interest rate bands
+Rate vs Balance	Scatter plot + trend line	Visualizes the relationship and correlation strength between interest rate and balance outstanding
+Top 5 Clients	Ranked bar chart	Highlights the top 5 clients by outstanding balance, filterable by reporting date
+Key Insights
+
+To be completed after reviewing the dashboard output — summarize the shape of the distribution, the direction and strength of the correlation, and which clients consistently rank in the top 5.
+
+Tech Stack
+Tableau Public — dashboard design and visualization
+Microsoft Excel — data source and preprocessing
